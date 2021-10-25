@@ -3,7 +3,7 @@
 const resultados = document.getElementById('resultados');
 var url = (window.location.hostname.includes('localhost'))
     ? 'http://localhost:8080/api'
-    : "https://restfulservercompleted.herokuapp.com";
+    : "https://restfulservercompleted.herokuapp.com/api";
 // Verificacion google y normal
 // TODO signin with google and sign out cambio
 function handleCredentialResponse(response) {
