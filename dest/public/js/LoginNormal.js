@@ -14,6 +14,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     const passwordLogin = document.getElementById('passwordLogin');
     const resultados = document.getElementById('resultados');
     const login = (e) => __awaiter(void 0, void 0, void 0, function* () {
+        console.log(e);
         e.preventDefault();
         const body = {
             email: emailLogin.value,
