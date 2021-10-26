@@ -1,6 +1,13 @@
 # Notes
 
- Remember that you must configure the environment variables,  I leave an example file for you to configure yourself.
+you can run the aplication using 
+```
+node dest/app 
+npm start
+```
+either of those will work
+
+Remember that you must configure the environment variables,  I leave an example file for you to configure yourself.
 
 # if you can find an error or bug, please send it to this email: jorgeivancvcontact@gmail.com
 
