@@ -8,6 +8,9 @@
     const formRegister = document.getElementById('formRegister');
     // hacer fetch
     const registerFetch = (body) => {
+        var url = (window.location.hostname.includes('localhost'))
+            ? 'http://localhost:8080/api'
+            : "https://restfulservercompleted.herokuapp.com/api";
         fetch(`${url}/users`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
