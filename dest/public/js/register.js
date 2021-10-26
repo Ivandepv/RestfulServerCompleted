@@ -8,7 +8,6 @@
     const formRegister = document.getElementById('formRegister');
     // hacer fetch
     const registerFetch = (body) => {
-        const url = 'http://localhost:8080/api';
         fetch(`${url}/users`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },

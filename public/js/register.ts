@@ -17,7 +17,6 @@
     // hacer fetch
     
     const registerFetch = (body: Object)=>{
-        const url: string = 'http://localhost:8080/api'
         fetch(`${url}/users`, {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
